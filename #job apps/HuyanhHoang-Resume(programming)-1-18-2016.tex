@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[scale= .8, a4paper]{geometry}
+\usepackage{babel}
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{Huyanh}
+\familyname{Hoang}
+%\title{Resumé title}                               % optional, remove/comment the line if not wanted
+\address{115 Lehigh Aisle}{Irvine 92612}{CA}         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
+\mobile{(562)-666-1609}                          % optional, remove/comment the line if not wanted
+%phone{phone number}                           % optional, remove/comment the line if not wanted
+%\fax{fax number}                             % optional, remove/comment the line if not wanted
+\email{huyanhh@uci.edu}                               % optional, remove/comment the line if not wanted
+%\homepage{home page}                         % optional, remove/comment the line if not wanted
+
+\extrainfo{\href{https://www.linkedin.com/in/huyanh-hoang-b21732b7}{linkedin.com/in/huyanhhoang}}
+% optional, remove/comment the line if not wanted
+% \photo[64pt][0.4pt]{picture}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{"Failure is an option here. If things are not failing, you are not innovating enough.”}                                 % optional, remove/comment the line if not wanted
+%
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Education}
+\cventry{2013--2017}{Bachelor of Science, Informatics}{University of California, Irvine}{}{}{Cumulative GPA: 3.3}  % arguments 3 to 6 can be left empty
+\section{Experience}
+\subsection{Vocational}
+\cventry{January 2016--Present}{Development Intern}{Rohm}{Irvine}{}{Implemented additional APIs and modified existing view controllers in Swift to facilitate the shipping of an event planning app}
+
+\subsection{Software Projects at UC Irvine}
+\cventry{November 2015}{HackUCI}{}{}{}{\begin{itemize}
+		\item Developed a first-person survival horror game for the Oculus Rift Development Kit 2
+		\item Designed the map layout, menu scene, and gameplay in which the player must escape a labyrinth while being chased by an enemy AI
+		\item Learned the basics of the Unity3D 5 Engine and C\# behavior scripts to apply them all within a 24 hour timeframe
+	\end{itemize}}
+\cventry{November 2015}{MedAppJam}{}{}{}{\begin{itemize}
+		\item Participated in a competition with a multi-disciplinary team to create a medical iOS app in which physicians can send notifications to their patients indicating an appointment delay
+		\item Led the software engineering process by creating mockups using Sketch and Balsamiq, building a requirements document, and then writing code in Swift using the Xcode IDE
+	\end{itemize}}
+\cventry{March 2015}{Connect Four, Othello}{}{}{}{\begin{itemize}
+		\item Implemented a console-based implementation of Connect Four and Othello written in Python
+		\item Learned introductory socket and protocol concepts and used them to play Connect Four with a server AI
+		\item Learned to build a graphical user interface for the Othello game logic using tkinter
+	\end{itemize}}
+%\section{Languages}
+%\cvitemwithcomment{Language 1}{Skill level}{Comment}
+%\cvitemwithcomment{Language 2}{Skill level}{Comment}
+%\cvitemwithcomment{Language 3}{Skill level}{Comment}
+%\section{Computer skills}
+%\cvdoubleitem{Category 1}{Comment}{Category 4}{Comment}
+%\cvdoubleitem{Category 2}{Comment}{Category 5}{Comment}
+%\cvdoubleitem{Category 3}{Comment}{Category 6}{Comment}
+%\section{Interests}
+%\cvitem{Hobby 1}{Description}
+%\cvitem{Hobby 2}{Description}
+%\cvitem{Hobby 3}{Description}
+\section{Leadership and Community}
+\cventry{June 2013}{Eagle Scout Project}{Boy Scouts of America}{Westminster}{}{\begin{itemize}
+		\item Developed and led a project involving the creation of wooden storage shelves for children at a local elementary school
+		\item Managed a group of 15 people and assigned them different tasks such as painting and nailing
+	\end{itemize}}
+\section{Skills}
+\cvlistitem{Proficient in Python and the Eclipse development environment}
+\cvlistitem{Familiar with Sketch, Adobe Photoshop, Unified Modeling Language, Linux/UNIX, Swift and Xcode, Java}
+\cvlistitem{Basic knowledge of C\# and Unity, HTML and CSS}
+%\section{References}
+%\begin{cvcolumns}
+%  \cvcolumn{Category 1}{Comment}
+%  \cvcolumn{Category 2}{Comment}
+%  \cvcolumn{Category 3}{Comment}
+%\end{cvcolumns}
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{Company Recruitment team}{Company's name\\Street address\\Zip Code City}
+%\date{Date}
+%\opening{Dear Sir or Madam,}
+%\closing{Yours faithfully,}
+%\enclosure{enclosures}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%\makelettertitle
+%\makeletterclosing
+\end{document}
