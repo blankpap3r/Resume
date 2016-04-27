@@ -1,6 +1,7 @@
 \documentclass[11pt,letterpaper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 \usepackage[scale= .85, letterpaper]{geometry}
@@ -10,7 +11,7 @@
 
 
 %----------------------------------------------------------------------------------
-%            personal data
+%            personal data --- Hart
 %----------------------------------------------------------------------------------
 
 \firstname{Huyanh}
@@ -24,42 +25,47 @@
 \email{huyanhh@uci.edu}                               % optional, remove/comment the line if not wanted
 %\homepage{home page}                         % optional, remove/comment the line if not wanted
 %\extrainfo{\href{https://www.linkedin.com/in/huyanh-hoang-b21732b7}{linkedin.com/in/huyanhhoang}}
-\social[linkedin][www.linkedin.com/in/huyanh-hoang-b21732b7]{huyanhhoang}
+\social[linkedin][www.linkedin.com/in/huyanhh]{huyanhh}
+\social[github][github.com/huyanhh]{huyanhh}
 
 % optional, remove/comment the line if not wanted
 % \photo[64pt][0.4pt]{picture}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-%\quote{"Failure is an option here. If things are not failing, you are not innovating enough.”}                                 % optional, remove/comment the line if not wanted
+%\quote{}                                 % optional, remove/comment the line if not wanted
 %
 \begin{document}
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 \section{Education}
-\cventry{2013--2017}{Bachelor of Science, Informatics}{University of California, Irvine}{}{}{Cumulative GPA: 3.4}  % arguments 3 to 6 can be left empty
+\cventry{2013--June 2017}{Bachelor of Science, Informatics}{University of California, Irvine}{}{}{Cumulative GPA: 3.4}  % arguments 3 to 6 can be left empty
 \section{Professional Experience}
-
-\cventry{January 2016--Present}{Development Intern}{Rohm}{Irvine}{}{\begin{itemize}
-		\item Implemented additional APIs for an iOS platform dealing with event coordination and event discovery
+\cventry{January 2016--Present}{iOS Development Intern}{Rohm}{Irvine}{}{\begin{itemize}
+		\item Converted prototypes for an iOS platform dealing with event coordination and event discovery to Swift code using external libraries and UIKit
 		\item Overhauled existing modules to fix programming bugs created from outsourced code
 		\item Constructed documentation detailing a high-level overview of the code structure for later implementation in the Android version
-		\end{itemize}}
+	\end{itemize}}
 
 \section{Software Projects}
 %cventry{year--year}{degree or job title}{institution or employer}{city}{grade}{description}}
+\cventry{April 2016}{FlagTraveler}{2016 NASA Space Apps Challenge}{Irvine}{}{\begin{itemize}
+		\item Designed a solution to help users learn new facts about NASA's historical space events that would otherwise be undiscovered
+		\item Engineered an iOS application that uses an HTML parser to scrape data sets from NASA's archives and displays them in a geotagging-based interface
+		\item Presented a pitch to the local community and received showcasing on open.NASA's Innovation Space
+	\end{itemize}}
 \cventry{February 2016}{Procrastinationation}{TreeHacks}{Stanford}{}{\begin{itemize}
 		\item Collaborated with a multi-disciplinary team to create a Google Chrome extension that keeps track of active tabs pages of browser activity and visually displays that information using the highcharts framework
 		\item Led the application design process to mind-map the most important features
 		\item Designed the front-end features by writing scripts in HTML/CSS using the Bootstrap 3 framework
 	\end{itemize}}
-\cventry{November 2015}{Unavoidable}{HackUCI}{UCI}{}{\begin{itemize}
-		\item Developed a first-person survival horror game for the Oculus Rift Development Kit 2
-		\item Designed the map layout, menu scene, and gameplay in which the player must escape a labyrinth while being chased by an enemy AI
-		\item Learned the basics of the Unity3D 5 Engine and C\# behavior scripts to apply them all within a 24 hour timeframe
+%\cventry{November 2015}{Unavoidable}{HackUCI}{Irvine}{}{\begin{itemize}
+%			\item Developed a first-person survival horror game for the Oculus Rift Development Kit 2
+%			\item Designed the map layout, menu scene, and gameplay in which the player must escape a labyrinth while being chased by an enemy AI
+%			\item Learned the basics of the Unity3D 5 Engine and C\# behavior scripts to apply them all within a 24 hour timeframe
+%		\end{itemize}}
+\cventry{November 2015}{Medthodical}{MedAppJam}{Irvine}{}{\begin{itemize}
+		\item Participated in a competition with a multi-disciplinary team to create a medical iOS app in which physicians can send notifications to their patients indicating an appointment delay
+		\item Led the software engineering process by creating mockups using Sketch and Balsamiq, building a requirements document and then writing code in Swift using the Xcode IDE
 	\end{itemize}}
-\cventry{March 2015}{Connect Four, Othello}{}{}{UCI}{\begin{itemize}
-		\item Implemented a console-based implementation of Connect Four and Othello using Python
-		\item Learned introductory socket and protocol concepts and used them to play Connect Four with a server AI
-		\item Learned to build a graphical user interface for the Othello game logic using tkinter
-	\end{itemize}}
+
 %\cventry{March 2015}{Connect Four, Othello}{}{}{}{\begin{itemize}
 %		\item Implemented a console-based implementation of Connect Four and Othello written in Python
 %		\item Learned introductory socket and protocol concepts and used them to play Connect Four with a server AI
@@ -85,8 +91,8 @@
 	\end{itemize}}
 \section{Skills}
 \cvlistitem{Proficiency in object-oriented programming with Python and Swift}
-\cvlistitem{Practical knowledge of HTML, CSS, Xcode and Cocoa, git}
-\cvlistitem{Basic knowledge of C\# and Unity, Linux/UNIX, Javascript, Java, D3 Data Visualization}
+\cvlistitem{Familiar with Xcode/Cocoa, Unified Modeling Language, HTML5/CSS3, Sketch}
+\cvlistitem{Basic knowledge of C\# and Unity, Linux/UNIX, D3, SQL, Java, JavaScript}
 %\section{References}
 %\begin{cvcolumns}
 %  \cvcolumn{Category 1}{Comment}
