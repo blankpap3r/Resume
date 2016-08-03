@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.27)  4 JUL 2016 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.27)  2 AUG 2016 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1373,11 +1373,11 @@ Package rerunfilecheck Info: File `HuyanhHoang-Resume-iOS.out' has not changed.
 (rerunfilecheck)             Checksum: 9F6D0C146227F1D436F2985ED51C7B93;622.
  ) 
 Here is how much of TeX's memory you used:
- 29505 strings out of 493027
- 539315 string characters out of 6134069
+ 29503 strings out of 493027
+ 539293 string characters out of 6134069
  635066 words of memory out of 5000000
  32601 multiletter control sequences out of 15000+600000
- 55591 words of font info for 65 fonts, out of 8000000 for 9000
+ 55490 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,60p,10374b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -1387,7 +1387,7 @@ ist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
 blic/lm/lmsso10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marv
 osym/marvosym.pfb>
-Output written on HuyanhHoang-Resume-iOS.pdf (1 page, 131285 bytes).
+Output written on HuyanhHoang-Resume-iOS.pdf (1 page, 131227 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
