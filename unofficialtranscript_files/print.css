@@ -1,0 +1,21 @@
+#audience_nav_background, #hdr-row, #maps, #datetime, #ftr-row,
+#pageTitle, #pageMenu, #selectedStudent, #searchForm, #subnav, #backToTop, .noPrint, .standardTabs { display:none; }
+
+table.standardTable{
+	font-family: monospace; 
+	width: 800px;
+	font-size:11px;
+}
+table.standardTable tr th { text-align: center; }
+
+
+#pageContent * { clear:both; font-size:11px;}
+#page { font-size:11px;width: 100%; float: left; clear: both; color:black; background: white; }
+#page a{ text-decoration: none; color:black; }
+#pageContent *.sortable { clear:both; }
+#pageContent div.printOnly { display: block; font-size:small; font-weight:normal; }
+#pageContent { margin-left: 0px; border:none; padding:0px; background-color: white; }
+#pageContent div.notice { padding: 0; }
+#pageContent div.titleBar span { display: block; float: left; color: white; }
+#pageContent table.standardTable{ font-family: monospace; width: 800px; font-size:11px; }
+#pageContent table.standardTable tr th { text-align: center; }
