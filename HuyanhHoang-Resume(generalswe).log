@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.27)  16 OCT 2016 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.27)  3 JAN 2017 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1362,22 +1362,22 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 
 (./HuyanhHoang-Resume(generalswe).aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `HuyanhHoang-Resume(generalswe).out' has not 
 changed.
 (rerunfilecheck)             Checksum: 14A3C6CB0BC57BE608E7C99C7327F6D8;554.
  ) 
 Here is how much of TeX's memory you used:
- 29507 strings out of 493027
- 539443 string characters out of 6134069
+ 29503 strings out of 493027
+ 539399 string characters out of 6134069
  635004 words of memory out of 5000000
  32601 multiletter control sequences out of 15000+600000
- 55692 words of font info for 66 fonts, out of 8000000 for 9000
+ 55490 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,60p,10509b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -1387,7 +1387,7 @@ ist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
 blic/lm/lmsso10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marv
 osym/marvosym.pfb>
-Output written on HuyanhHoang-Resume(generalswe).pdf (1 page, 130430 bytes).
+Output written on HuyanhHoang-Resume(generalswe).pdf (1 page, 130627 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
