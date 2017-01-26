@@ -7,6 +7,11 @@
 \usepackage{babel}
 \usepackage{tabu}
 
+%\renewcommand*{\makecvtitle}{%
+%	\recomputecvlengths%
+%	\vspace*{3em} % NEW
+%}
+
 %----------------------------------------------------------------------------------
 %            personal data
 %----------------------------------------------------------------------------------
@@ -27,21 +32,26 @@
 \begin{document}
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
+\vspace*{-5mm}
 \section{Education}
 \cventry{2013--Winter 2018}{Bachelor of Science, Informatics}{University of California, Irvine}{Cumulative GPA: 3.4}{}{Emphasis in Software Development and User Experience Design \\ Coursework: Databases, Data Structures and Algorithms, User Interaction Software, Senior Capstone Design}  % arguments 3 to 6 can be left empty
 \section{Experience}
-\cventry{January 2016--January 2017}{Cofounder}{Rohm}{Irvine}{}{\begin{itemize}
-		\item Transform prototypes for an iOS platform dealing with event coordination and event discovery to Swift code with Firebase and Cocoa
-		\item Plan and coordinate the Agile process by prioritizing the features needed in each sprint based on user data
-		\item Implement lean startup techniques to discover user problems and create solutions
+\cventry{January 2017--Present}{Lab Tutor}{UCI Information and Computer Sciences}{Irvine}{}{\begin{itemize}
+	\item Guide students through Data Structures and Algorithms lab assignments in a setting of 40+ students
+	\item Provide student feedback to the professor and TA to improve lab sessions
 	\end{itemize}}
-\cventry{December 2016--Present}{Freelancer}{}{Irvine}{}{\begin{itemize}
-		\item Designed and developed an iOS application that eases the pain of individuals who experience Tinnitus
-		\item Collaborated with doctors to elicit requirements and plan the architecture and implementation details
+\cventry{December 2016--Present}{Freelancer}{UCI School of Medicine}{Irvine}{}{\begin{itemize}
+		\item Developed an iOS application utilizing AVFoundation to produce sound that eases the pain of Tinnitus patients
+		\item Designed the information architecture and codebase structure through requirement elicitation with doctors
+	\end{itemize}}
+\cventry{January 2016--January 2017}{Cofounder}{Rohm}{Irvine}{}{\begin{itemize}
+		\item Rewrote over 4000 lines of frontend code in Swift and completed documentation from legacy iOS codebase
+		\item Created an internal Agile framework for the team to prioritize features
+		\item Implemented lean startup techniques to discover user problems and create solutions
 	\end{itemize}}
 \section{Software Projects}
 \cventry{July 2016--Present}{calorui}{Independent}{Irvine}{}{\begin{itemize}
-		\item Developing a fitness utility platform that tracks calories and automatically counts the workout set repetitions for iOS, Android, and Web using React and Firebase
+		\item Developing a mobile fitness application for multiple platforms using React Native and Firebase
 %		\item Planning problems, solutions, customer segments, acquisition channels, and actionable metrics
 	\end{itemize}}
 %cventry{year--year}{degree or job title}{institution or employer}{city}{grade}{description}}
@@ -78,8 +88,7 @@
 %\cvitem{Hobby 3}{Description}
 \section{Leadership and Community}
 \cventry{June 2013}{Eagle Scout Project}{Boy Scouts of America}{Westminster}{}{\begin{itemize}
-		\item Developed and led a project involving the creation of wooden storage shelves for children at a local elementary school
-		\item Managed a group of 15 people and assigned them different tasks such as painting and nailing
+		\item Developed and led a project involving the creation of wooden storage shelves for children at a local elementary school; managed 15-20 volunteers
 	\end{itemize}}
 \section{Skills}
 \cvlistitem{Proficiency in implementation skills and algorithms with C++, Java, Python, and Swift}
