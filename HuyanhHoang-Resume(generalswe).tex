@@ -3,55 +3,68 @@
 \moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-\usepackage[scale= .85, letterpaper]{geometry}
+\usepackage[scale= .85, letterpaper,bottom=0.5in,top=0.5in]{geometry}
 \usepackage{babel}
 \usepackage{tabu}
 
-%\renewcommand*{\makecvtitle}{%
-%	\recomputecvlengths%
-%	\vspace*{3em} % NEW
-%}
-
-%----------------------------------------------------------------------------------
+%-----------------------------------------------------------------
 %            personal data
-%----------------------------------------------------------------------------------
+%-----------------------------------------------------------------
 \firstname{Huyanh}
 \familyname{Hoang}
-%\title{Resumé title}                             % optional, remove/comment the line if not wanted
-%\address{115 Lehigh Aisle, Irvine, CA 92612}{}{}       % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
-\mobile{(562)-666-1609}                          % optional, remove/comment the line if not wanted
-%phone{phone number}                           % optional, remove/comment the line if not wanted
-%\fax{fax number}                             % optional, remove/comment the line if not wanted
+%\title{Resumé title}
+%\address{115 Lehigh Aisle, Irvine, CA 92612}{}{}
+\mobile{(562)-666-1609}
+%phone{phone number}
+
 \email{huyanhh@uci.edu}
 \homepage{huyanhhoang.co}
 \social[linkedin][www.linkedin.com/in/huyanhh]{huyanhh}
 \social[github][github.com/huyanhh]{huyanhh}
 
-%\quote{"Failure is an option here. If things are not failing, you are not innovating enough.”}                                 % optional, remove/comment the line if not wanted
 %
 \begin{document}
-%-----       resume       ---------------------------------------------------------
+%       resume       ---------------------------------------------------------
 \makecvtitle
 \vspace*{-10mm}
 \section{Education}
-\cventry{2013--Winter 2018}{Bachelor of Science, Informatics}{University of California, Irvine}{Cumulative GPA: 3.4}{}{Emphasis in Software Development and User Experience Design \\ Coursework: Databases, Data Structures and Algorithms, User Interaction Software, Senior Capstone Design}  % arguments 3 to 6 can be left empty
+\cventry{2013--March 2018}{Bachelor of Science, Informatics}{University of California, Irvine}{Cumulative GPA: 3.4}{}{Emphasis in Software Development and User Experience Design \\ Coursework: Databases, Data Structures and Algorithms, User Interaction Software, Senior Capstone Design}  % arguments 3 to 6 can be left empty
+
 \section{Experience}
-\cventry{January 2017--Present}{Lab Tutor}{UCI Information and Computer Sciences}{Irvine}{}{\begin{itemize}
+\cventry
+{January 2017 - Present}
+{Lab Tutor}
+{UCI Information and Computer Sciences}
+{Irvine}
+{}
+{
+	\begin{itemize}
 	\item Guide students through Data Structures and Algorithms lab assignments in a setting of 40+ students
 	\item Provide student feedback to the professor and TA to improve lab sessions
+	\end{itemize}
+}
+	
+\cventry{December 2016--Present}{iOS Developer}{UCI School of Medicine}{Irvine}{}{\begin{itemize}
+		\item Developing an iOS application using AVFoundation to mitigate the ringing sound of Tinnitus
+		\item Creating an interface using Firebase to fetch sound files from Google Cloud Storage to persistent local data storage
+		\item Designing the code architecture through requirement elicitation with doctors
 	\end{itemize}}
-\cventry{December 2016--Present}{Freelancer}{UCI School of Medicine}{Irvine}{}{\begin{itemize}
-		\item Developed an iOS application using AVFoundation to produce sound that eases the pain of Tinnitus patients
-		\item Designed the information architecture and codebase structure through requirement elicitation with doctors
-	\end{itemize}}
+	
 \cventry{January 2016--January 2017}{Cofounder}{Rohm}{Irvine}{}{\begin{itemize}
 		\item Rewrote over 4000 lines of front-end code in Swift and completed documentation from legacy iOS codebase
 		\item Created internal Agile framework for team to prioritize features, reducing development cycle into 1 week sprints
 		\item Implemented lean startup techniques and conducted 20+ user interviews to discover problems and create solutions, cutting down 2 months of development time
 	\end{itemize}}
+	
 \section{Software Projects}
-\cventry{July 2016--Present}{calorui}{Independent Developer}{Irvine}{}{\begin{itemize}
-		\item Developing a mobile fitness application for multiple platforms using React Native and Firebase
+\cventry
+{July 2016--Present}
+{calorui}
+{Independent Developer}
+{Irvine}
+{}
+{\begin{itemize}
+		\item Developing a mobile fitness application for iOS and Android using React Native and Firebase
 %		\item Planning problems, solutions, customer segments, acquisition channels, and actionable metrics
 	\end{itemize}}
 %cventry{year--year}{degree or job title}{institution or employer}{city}{grade}{description}}
@@ -91,9 +104,9 @@
 		\item Developed and led a project involving the creation of wooden storage shelves for children at a local elementary school; managed 15-20 volunteers
 	\end{itemize}}
 \section{Skills}
-\cvlistitem{Proficiency in implementation skills and algorithms with C++, Java, Python, and Swift}
-\cvlistitem{Proficiency in creating user personas, conducting user interviews, prototyping, and lean startup}
-\cvlistitem{Familiar with Cocoa API, Unified Modeling Language, HTML5/CSS3, Sketch, D3, MongoDB, Node.js, JavaScript, React, SQL, Linux}
+\cvlistitem{Proficiency in C++, Java, Python, Swift, iOS}
+\cvlistitem{Experience with HTML5/CSS3, MongoDB, Node.js, JavaScript, React, SQL, Linux}
+\cvlistitem{Knowledge in user personas, user interviews, prototyping, lean startup}
 %\section{References}
 %\begin{cvcolumns}
 %  \cvcolumn{Category 1}{Comment}
