@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.27)  27 SEP 2017 13:14
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.27)  19 OCT 2017 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1177,19 +1177,24 @@ ut line 24.
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 24.
 ) (./resume/experience.tex)
-(./resume/extracurricular.tex) (./resume/skills.tex
-LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 10.
-LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 10.
- [1
+(./resume/extracurricular.tex
+Overfull \hbox (60.96396pt too wide) in alignment at lines 9--28
+[] [] 
+ []
 
-]
+) (./resume/skills.tex
 Overfull \hbox (34.16397pt too wide) in alignment at lines 10--29
 [] [] 
  []
 
-) [2]
+)
+LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 105.
+LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 105.
+ [1
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (./HuyanhHoang-Resume.aux)
@@ -1199,10 +1204,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 105.
 Here is how much of TeX's memory you used:
  40305 strings out of 493632
  768010 string characters out of 6144722
- 890024 words of memory out of 5000000
+ 888023 words of memory out of 5000000
  43194 multiletter control sequences out of 15000+600000
  6523 words of font info for 78 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  72i,11n,89p,10394b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on HuyanhHoang-Resume.pdf (2 pages).
+Output written on HuyanhHoang-Resume.pdf (1 page).
